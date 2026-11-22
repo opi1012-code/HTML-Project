@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <style>div{
+   line-height: 10px;
+   padding:10px;
+   text-align: center;
+    background-color: rgb(13, 60, 179);
+    color:aliceblue;
+}
+table,th,td{
+   
+     padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+body{
+   
+      text-align: center;
+}
+table{
+    width:100%;
+}
+.f{
+    background-color: rgb(201, 192, 192);
+}</style>
+   <div><h1>Sonargaon Unversity(SU)</h1>
+  <h2>My Class Routine</h2>
+  <h3>Dhaka,Bangladesh</h3>
+ <h3><pre>Program:B.Sc in Computer Science & Engineering(CSE)      Semester:FAll-2026</pre></h3>
+</div>
+</head>
+<body>
+ 
+  <table >
+   <tr class="f" >
+    <th>SL</th>
+    <th>Course Title</th>
+    <th>Course Type</th>
+    <th>Day</th>
+    <th>Class Time</th>
+    <th>(Floor,Building)</th>
+    <th>Teacher Name</th>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>Operating System</td>
+    <td>Theory</td>
+    <td>Friday</td>
+    <td>8.00pm-10.00pm</td>  
+   <td>(floor-5,Room:west206)</td>
+  <td>Tanjil Mahmud</td>
+   </tr>
+   <tr class="f">
+    <td>2</td>
+    <td>Operating System</td>
+    <td>Theory</td>
+    <td>Friday</td>
+    <td>8.00pm-10.00pm</td>  
+   <td>(floor-5,Room:west206)</td>
+  <td>Tanjil Mahmud</td>
+
+   </tr>
+<tr>
+    <td>3</td>
+    <td>Operating System</td>
+    <td>Theory</td>
+    <td>Friday</td>
+    <td>8.00pm-10.00pm</td>  
+   <td>(floor-5,Room:west206)</td>
+  <td>Tanjil Mahmud</td>
+   </tr>
+   <tr class="f">
+    <td>4</td>
+    <td>Operating System</td>
+    <td>Theory</td>
+    <td>Friday</td>
+    <td>8.00pm-10.00pm</td>  
+   <td>(floor-5,Room:west206)</td>
+  <td>Tanjil Mahmud</td>
+   </tr>
+ 
+
+</table>
+
+</body>
+</html>
