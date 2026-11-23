@@ -4,38 +4,74 @@
 <link rel="stylesheet" href="style.css">
 <title>My First Web Page</title>
 <style>
-  body {
-    background-color: azure;
-    font-family: Gill Sans, sans-serif;
-  }
-  h1 {
-    height: 100px;
+ 
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     width: 100%;
-    font-family: Gill Sans;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Main Content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
     text-align: center;
-    color: whitesmoke;
-    background-color: #333;
-    padding: 20px;
-    font-size: 35px;
-  }
-  h2 {font-size: 30px; letter-spacing: -1px;height: 100px;
-    width: 100%;}
-  p {
-    font-size: larger;
-    text-align: center;
-    color: gray;
-  }
-  
-  mark{
-  background-color:#FFE8;
-  }
-  blockquote{
-    background-color: white;
-   border-radius: 10px;
-    padding: 20px 24px;
-    margin: 16px 0;
-     font-size: 20px;
-  }
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+}
+
 </style>
 </head>
 <body style="background-color:#F2F1EE; font-family:system-ui;">  <body>
