@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+    padding: 20px;
+}
+body{
+  display: flex;
+  justify-content: center;
 
+}
+  </style>
+</head>
+<body>
+    <table >
+   <caption style="text-align: center; line-height: 0.5px;"><h1>Student Information</h1></caption>
+
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Student Age</th>
+            <th>Student Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>123456</td>
+            <td>20</td>
+            <td>123 Main St, Anytown, USA</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>789012</td>
+        <td>22</td>
+        <td>456 Elm St, Othertown, USA</td>
+    </tr>
+    <tr>
+        <td>Michael Johnson</td>
+        <td>345678</td>
+        <td>21</td>
+        <td rowspan="2">789 Oak St, Sometown, USA</td>
+    </tr>
+    <tr>
+        <td>Emily Davis</td>
+        <td>901234</td>
+        <td>19</td>
+       
+    </tr>
+</table>
+  
+</body>
+</html>
